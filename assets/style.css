@@ -70,3 +70,6 @@ footer {
   border-top: rgb(81, 160, 155) solid 5px;
   margin: 0pt;
 }
+#icon {
+  width: 3em;
+}
