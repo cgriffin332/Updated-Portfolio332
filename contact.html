@@ -1,0 +1,133 @@
+<!DOCTYPE html> <!--[if gt IE 8]><!-->
+<html lang="en" class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Calvin Griffin Portfolio</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/griffin.jpg"
+      type="image/x-icon"
+    />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- name on navbar -->
+        <a class="navbar-brand nav-name text-white">Calvin Griffin</a>
+        <!-- collapse toggle button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- About, Portfolio, Contact links on right of navbar -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <!-- active page -->
+            <li class="nav-item ml-auto active">
+              <!-- link to contact page -->
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+            <li class="nav-item ml-auto">
+              <!-- link to portfolio page -->
+              <a class="nav-link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item ml-auto">
+              <!-- link to about page -->
+              <a class="nav-link" href="./index.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- container -->
+      <section
+        class="container col-11 col-sm-7 col-lg-8 p-4 m-3 ml-sm-4 bg-white"
+      >
+        <div class="row">
+          <!-- page title -->
+          <div class="col-12 bg-white px-3">
+            <h1>Contact</h1>
+            <!-- contact form -->
+            <form>
+              <!-- name input -->
+              <div class="mx-4 mt-4 form-group">
+                <label for="nameEntry">Name</label>
+                <input
+                  type="name"
+                  class="form-control inside-icon"
+                  placeholder="Name"
+                  id="nameEntry"
+                  aria-describedby="nameEntry"
+                />
+              </div>
+              <!-- email input -->
+              <div class="mx-4 form-group">
+                <label for="exampleInputEmail1">Email</label>
+                <input
+                  type="email"
+                  class="form-control inside-icon"
+                  placeholder="Email"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailContact"
+                />
+              </div>
+              <!-- message input -->
+              <div class="mx-4 mb-4 form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea
+                  class="form-control"
+                  placeholder="Message"
+                  id="exampleFormControlTextarea1"
+                  rows="4"
+                ></textarea>
+              </div>
+              <div>
+                <!-- submit button -->
+                <button type="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- sticky footer -->
+    <footer class="footer fixed-bottom">
+      <div class="container">&copy; Copyright 2020 Calvin Griffin</div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
