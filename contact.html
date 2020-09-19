@@ -18,7 +18,10 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
@@ -67,12 +70,30 @@
         <div class="row">
           <!-- page title -->
           <div class="col-12 bg-white px-3">
+            <a href="https://github.com/cgriffin332" target="_blank"
+              ><img
+                id="icon"
+                class="float-right mx-2"
+                src="./assets/images/github-icon_3.png"
+                alt="github icon"
+            /></a>
+            <a
+              href="https://www.linkedin.com/in/calvin-griffin-8247521b7/"
+              target="_blank"
+              ><img
+                id="icon"
+                class="float-right"
+                src="./assets/images/linkedin-icon_3.png"
+                alt="linkedin icon"
+            /></a>
             <h1>Contact</h1>
-            <a href="https://github.com/cgriffin332" target="_blank"><img id="icon" class="float-right" src="./assets/images/github-icon_3.png" alt="github icon"></a>
-            <a href="https://www.linkedin.com/in/calvin-griffin-8247521b7/" target="_blank"><img id="icon" class="float-right" src="./assets/images/linkedin-icon_3.png" alt="linkedin icon"></a>
+            <a
+              class="text-dark float-right"
+              href="./assets/images/WD-Resume.pdf"
+              target="_blank"
+              >View Resume</a
+            >
             <p>Email: cgriffin332@gmail.com</p>
-            <a class="text-dark" href="./assets/images/WD-Resume.pdf" target="_blank">View Resume</a>
-
             <!-- contact form -->
             <form>
               <!-- name input -->
@@ -82,7 +103,7 @@
                   type="name"
                   class="form-control inside-icon"
                   placeholder="Name"
-                  id="nameEntry"
+                  id="name"
                   aria-describedby="nameEntry"
                 />
               </div>
@@ -93,7 +114,7 @@
                   type="email"
                   class="form-control inside-icon"
                   placeholder="Email"
-                  id="exampleInputEmail1"
+                  id="email"
                   aria-describedby="emailContact"
                 />
               </div>
@@ -103,14 +124,13 @@
                 <textarea
                   class="form-control"
                   placeholder="Message"
-                  id="exampleFormControlTextarea1"
+                  id="message"
                   rows="4"
                 ></textarea>
               </div>
               <div>
                 <!-- submit button -->
-                <button type="submit">Submit</button>
-                
+                <button class="submitBtn" type="submit">Submit</button>
               </div>
             </form>
           </div>
@@ -122,8 +142,8 @@
       <div class="container">&copy; Copyright 2020 Calvin Griffin</div>
     </footer>
     <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
       crossorigin="anonymous"
     ></script>
     <script
@@ -136,5 +156,6 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
+    <script src="./script.js"></script>
   </body>
 </html>

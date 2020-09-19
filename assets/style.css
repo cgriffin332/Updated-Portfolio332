@@ -46,6 +46,7 @@ h1 {
   width: 500px;
   max-width: 100%;
 }
+
 /* icon inside text box */
 .inside-icon {
   background-image: url(./images/icon.png);
@@ -72,4 +73,17 @@ footer {
 }
 #icon {
   width: 3em;
+}
+.card {
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+.card h5 {
+  color: rgb(81, 160, 155);
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.card a {
+  color: black;
 }
