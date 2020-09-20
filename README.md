@@ -44,9 +44,9 @@ This is to be used as a means in which to present my bio, portfolio, and contact
 This project was assigned to me by Georgia Tech's Full Stack Web Development Bootcamp. Bootstrap was also a key contributer to this project.
 
 ## Contact
-Calvin Griffin
-Email: cgriffin332@gmail.com
-LinkedIn: https://www.linkedin.com/in/calvin-griffin-8247521b7/
+Calvin Griffin <br />
+Email: cgriffin332@gmail.com <br />
+LinkedIn: https://www.linkedin.com/in/calvin-griffin-8247521b7/ <br />
 Portfolio: https://cgriffin332.github.io/Updated-Portfolio332/
 
 ## License
